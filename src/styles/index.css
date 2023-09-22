@@ -6,6 +6,6 @@
   src: url("./fonts/MAKBANGKOK.woff2") format("woff2");
   font-weight: bold;
 }
-.font-face-bold {
+body {
   font-family: "bangkok-bold" !important;
 }

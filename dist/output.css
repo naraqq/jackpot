@@ -672,6 +672,6 @@ video {
   font-weight: bold;
 }
 
-.font-face-bold {
+body {
   font-family: "bangkok-bold" !important;
 }
