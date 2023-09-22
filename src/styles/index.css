@@ -3,7 +3,7 @@
 @tailwind utilities;
 @font-face {
   font-family: "bangkok-bold";
-  src: url("../assets/MAKBANGKOK.woff2") format("woff2");
+  src: url("./fonts/MAKBANGKOK.woff2") format("woff2");
   font-weight: bold;
 }
 body {
