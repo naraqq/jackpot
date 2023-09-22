@@ -1,3 +1,7 @@
 .bg-grad {
   background: linear-gradient(to right top, #edddef, #dff6e2);
 }
+* {
+  margin: 0;
+  padding: 0;
+}
