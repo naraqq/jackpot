@@ -198,6 +198,7 @@ export default function SlotMachine() {
     const shuffledJackpotWheels = jackpotWheels.map((wheel) => {
       const shuffledWheel = wheel.sort(() => Math.random() - 0.5);
       shuffledWheel.push(shuffledWheel[0]);
+
       return shuffledWheel;
     });
 
@@ -223,11 +224,8 @@ export default function SlotMachine() {
 
             // Check for winning combination after animation ends
             if (index === jackpotWheels.length - 1) {
-              setTimeout(() => {
-                // Ensure that final state is updated
-                const newFinal = jackpotWheels.map((wheel) => wheel[0]);
-                setFinal(newFinal);
-              }, 0); // Use a timeout with 0ms delay to allow state update
+              const newFinal = jackpotWheels.map((wheel) => wheel[0]);
+              setFinal(newFinal);
             }
           }, 2000);
         }
@@ -268,7 +266,6 @@ export default function SlotMachine() {
                         key={index}
                         className="mb-10 flex items-center justify-center"
                       >
-                        {/* {item} */}
                         <img
                           className="!h-[70px] my-5"
                           src={`images/${item}.png`}
