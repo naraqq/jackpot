@@ -667,7 +667,7 @@ video {
 @font-face {
   font-family: "bangkok-bold";
 
-  src: local("bangkok-bold"), url("../fonts/MAKBANGKOK.ttf") format("truetype");
+  src: local("bangkok-bold"), url("./fonts/MAKBANGKOK.ttf") format("truetype");
 
   font-weight: bold;
 }
