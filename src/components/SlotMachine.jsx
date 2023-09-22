@@ -255,7 +255,7 @@ export default function SlotMachine() {
         alt=""
       />
       <div className="fixed h-screen w-screen top-0 left-0 flex items-center justify-center">
-        <div className="w-[calc(37%+100px)] ml-[100px] relative mt-8 flex">
+        <div className="w-[calc(37%+100px)] ml-[100px] relative mt-8 flex select-none">
           <div className="jackpot__screen">
             {jackpotWheels.map((wheel, index) => {
               return (
