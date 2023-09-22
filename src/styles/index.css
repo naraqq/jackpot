@@ -3,26 +3,9 @@
 @tailwind utilities;
 @font-face {
   font-family: "bangkok-bold";
-  src: local("bangkok-bold"), url("../fonts/BangkokBold.ttf") format("truetype");
+  src: local("bangkok-bold"), url("../fonts/MAKBANGKOK.TTF") format("truetype");
   font-weight: bold;
 }
-@font-face {
-  font-family: "bangkok-normal";
-  src: local("bangkok-normal"),
-    url("../fonts/BangkokNormal.ttf") format("truetype");
-  /* font-weight: bold; */
-}
-@font-face {
-  font-family: "bangkok-cyr";
-  src: local("bangkok-cyr") url("./fonts/Bangkok-cyr.ttf") format("truetype");
-}
-
 .font-face-bold {
   font-family: "bangkok-bold" !important;
-}
-.font-face-normal {
-  font-family: "bangkok-normal" !important;
-}
-.bangkok-no {
-  font-family: "bangkok-cyr" !important;
 }

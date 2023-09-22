@@ -304,7 +304,7 @@ export default function SlotMachine() {
             data-aos="fade-up"
             className="bg-[#F0E9F1] w-[calc(50%)] p-4 text-2xl rounded-2xl bg-grad select-none"
           >
-            <p className="text-center font-semibold text-[#1D3182] bangkok-no">
+            <p className="text-center font-semibold text-[#1D3182] font-face-bold">
               {resultMessage}
             </p>
           </div>
