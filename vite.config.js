@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      $fonts: resolve("./static/fonts"),
+      $fonts: resolve("./public/fonts"),
     },
   },
 });
