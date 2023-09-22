@@ -84,7 +84,7 @@ export default function SlotMachine() {
     },
     {
       combination: ["1", "4", "4", "4"],
-      message: "Удахгүй ээж болох нь дээ",
+      message: "Удахгүй аав юм уу ээж болох нь дээ",
     },
     {
       combination: ["2", "4", "4", "4"],
@@ -163,6 +163,10 @@ export default function SlotMachine() {
     {
       combination: ["3", "3", "4", "4"],
       message: "Өө гал гал гал гал гал",
+    },
+    {
+      combination: ["2", "3", "3", "4"],
+      message: "Мэрэг төөрлөө, NEXT !!!",
     },
   ];
   const checkWinningCombination = () => {
@@ -294,13 +298,13 @@ export default function SlotMachine() {
           </div>
         </div>
       </div>
-      <div className="fixed h-[400px] w-screen bottom-0 left-0 flex items-center justify-center">
+      <div className="fixed h-[380px] w-screen bottom-0 left-0 flex items-center justify-center">
         {resultMessage != "" && (
           <div
             data-aos="fade-up"
-            className="bg-[#F0E9F1] w-[calc(50%)] p-4 text-xl rounded-2xl bg-grad select-none"
+            className="bg-[#F0E9F1] w-[calc(50%)] p-4 text-2xl rounded-2xl bg-grad select-none"
           >
-            <p className="text-center font-semibold text-[#1D3182]">
+            <p className="text-center font-semibold text-[#1D3182] bangkok-no">
               {resultMessage}
             </p>
           </div>

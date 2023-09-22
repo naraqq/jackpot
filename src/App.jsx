@@ -3,6 +3,7 @@ import Test from "./components/Test";
 import "./styles/App.css";
 import "./styles/pot.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import "./fonts/BangkokBold.ttf";
 function App() {
   return (
     <div className="w-screen h-screen ">
